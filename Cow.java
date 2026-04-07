@@ -18,7 +18,8 @@ public class Cow implements Animal{
     }
 
     public void makeSound() {
-        System.out.println("Cow says: " + sound);
+        System.out.println("Cow says: " + sound + "\n");
+        System.out.println("Cloning...");
     }
 
     @Override
